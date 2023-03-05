@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 40% 55% 5%;
+}
+
+header{
+    background-image: url(images/bg-mobile.svg);
+}
