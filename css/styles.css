@@ -21,7 +21,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    flex-grow: 1;
+    flex-grow: 0.6;
 }
 
 .Huddle-logo{
@@ -38,27 +38,28 @@ header{
 section{
     width: 100%;
     height: 100%;
-    margin: 50px 70px;
+    padding: 42px 60px;
     flex-grow: 2;
 }
 
 h1{
    color: white;
    text-align: center;
-   font-size: 48px;
    font-family: 'Poppins', sans-serif;
+   font-size: 48px;
    font-weight: 600;
+   padding-bottom: 25px;
 }
 
 p{
     color: white;
     text-align: center;
-    font-size: 35px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
 }
 
 button{
-    margin: 40px 150px;
+    margin: 0 auto;
     border-radius: 20px;
     width: 380px;
     height: 80px;
