@@ -83,29 +83,18 @@ button{
     justify-content: center;
 }
 
-.socials a{
-    margin: 10px;
-
-}
-
 .socials img{
-    width: 54px;
-    height: 54px;
-    padding: 15px;
-}
-
-.facebook{
-    width: 54px;
-    height: 95px;
-    /* border: 1px solid white;
-    border-radius: 50%; */
+    width: 30px;
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    box-sizing: content-box;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-size: cover;
 }
 
 .attribution{
-    /* width: 90%;
-    height: 100%; */
-    /* margin: 0 auto; */
-    /* flex-grow: 0.01; */
     position: absolute;
     top: 100%;
     left: 50%;
