@@ -50,7 +50,7 @@ h1{
    padding-bottom: 26px;
 }
 
-p{
+.section-p{
     color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -88,7 +88,6 @@ button{
 .socials .twitter,
 .socials .instagram {
     align-items: center;
-    /* background-color: transparent; */
     border: 1.5px solid white;
     border-radius: 50%;
     display: flex;
@@ -106,8 +105,8 @@ footer div a img {
 }
 
 .icon-facebook{
-    height: 105px;
-    width: 15px;
+    height: 30px;
+    width: 18px;
 }
 
 .icon-twitter{
@@ -140,7 +139,7 @@ footer div a img {
     padding: 50px;
     box-sizing: content-box;
     /* margin: 50px; */
-*/
+
 
 /* .socials img{
     width: 25px;
@@ -157,12 +156,13 @@ footer div a img {
  } */
 
 .attribution{
+    color: white;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%);
-    padding-bottom: 0;
     font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
 }
 
 .attribution a{
