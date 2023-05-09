@@ -75,7 +75,7 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%);
-    box-shadow: 0.5px 5px 5px 0px hsl(257, 40%, 30%);
+    box-shadow: 0.2px 9px 9px 0px hsla(259, 41%,32%, 0.603);
 }
 
 .socials{
@@ -159,7 +159,7 @@ footer div a img {
 
 .attribution{
     color: white;
-    position: relative;
+    position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%);
