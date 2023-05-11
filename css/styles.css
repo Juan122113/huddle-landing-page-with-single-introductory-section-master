@@ -160,7 +160,7 @@ footer div a img {
 
 .attribution{
     color: white;
-    position: absolute;
+    position: fixed;
     top: 100%;
     left: 50%;
     transform: translate(-50%);
