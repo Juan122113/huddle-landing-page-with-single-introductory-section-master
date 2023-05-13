@@ -161,9 +161,9 @@ footer div a img {
 .attribution{
     color: white;
     position: fixed;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%);
+    /* top: 100%;
+    left: 50%; */
+    /* transform: translate(-50%); */
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
 }
