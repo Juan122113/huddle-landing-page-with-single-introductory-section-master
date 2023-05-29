@@ -15,7 +15,7 @@ body{
 header{
     /* height: 100%; */
     width: 100%;
-    padding: 20px 9.7vw;
+    padding: 8vh 9.7vw;
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
