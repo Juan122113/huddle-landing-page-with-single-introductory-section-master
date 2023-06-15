@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    height: 500px;
+    height: 47vh;
     width: 100%;
     padding: 1.1vh 9.7vw;
     background-image: url(../images/bg-mobile.svg);
