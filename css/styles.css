@@ -39,7 +39,7 @@ section{
     height: 25vh;
     padding: 42px 72px 140px 72px;
     /* flex-grow: 0.2; */
-    position: relative;
+    /* position: relative; */
 }
 
 h1{
