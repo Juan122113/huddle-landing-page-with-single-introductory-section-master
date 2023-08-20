@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    height: 46.8vh;
+    height: 46.7vh;
     width: 100%;
     padding: 1.1vh 9.7vw;
     background-image: url(../images/bg-mobile.svg);
@@ -49,7 +49,7 @@ h1{
    font-size: 6.5vw;
    font-weight: 600;
    padding-bottom: 26px;
-   line-height: 68px;
+   line-height: 10vh;
 }
 
 .section-p{
