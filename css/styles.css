@@ -59,7 +59,7 @@ h1{
     font-size: 4.33vw;
     /* font-weight: 400; */
     opacity: 0.9;
-    line-height: 2.9vh;
+    line-height: 3vh;
     /* padding-bottom: 0.00000000000000000000000001vh; */
 }
 
@@ -76,7 +76,7 @@ button{
     top: 21%;
     left: 50%;
     transform: translate(-50%);
-    box-shadow: 1px 7px 9px 0px hsla(259, 41%,32%, 0.603);
+    box-shadow: 1px 7px 8px 0px hsla(259, 41%,32%, 0.603);
 }
 
 .socials{
