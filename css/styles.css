@@ -76,7 +76,7 @@ button{
     top: 21%;
     left: 50%;
     transform: translate(-50%);
-    box-shadow: 1px 7px 3px 0px hsla(259, 41%,32%, 0.603);
+    box-shadow: 1px 8px 10px 0px hsla(259, 41%,32%, 0.603);
 }
 
 .socials{
