@@ -73,7 +73,7 @@ button{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     position: relative;
-    top: 21%;
+    /* top: 21%; */
     left: 50%;
     transform: translate(-50%);
     box-shadow: 1px 6px 5px 0px hsla(259, 41%,32%, 0.603);
