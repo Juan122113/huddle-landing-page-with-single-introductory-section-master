@@ -37,7 +37,7 @@ header{
 section{
     width: 100%;
     height: 25vh;
-    padding: 42px 10vw 140px 9.4vw;
+    padding: 42px 10vw 140px 10vw;
     /* flex-grow: 0.2; */
     /* position: relative; */
 }
@@ -56,7 +56,7 @@ h1{
     color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 4.3995vw;
+    font-size: 4.45vw;
     /* font-weight: 400; */
     opacity: 0.9;
     line-height: 3vh;
