@@ -30,14 +30,14 @@ header{
 
 .mockups{
     width: 100%;
-    height: auto;
-    padding-top: 75px;
+    height: 31.9vh;
+    padding-top: 4.6vh;
 }
 
 section{
     width: 100%;
     height: 25vh;
-    padding: 42px 10.4vw 140px 10.4vw;
+    padding: 3vh 10.4vw 140px 10.4vw;
     /* flex-grow: 0.2; */
     /* position: relative; */
 }
@@ -85,7 +85,7 @@ button{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 8vh;
+    margin-top: 7vh;
 }
 
 .socials .facebook,
@@ -98,14 +98,14 @@ button{
     height: 3.5vh;
     width: 7.4vw;
     justify-content: center;
-    margin-left: 11px;
-    margin-right: 11px;
-    padding: 1px;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
+    padding: 0.1vh;
 }
 
 .icon-instagram{
-    width: 4vw;
-    height: 2vh;
+    width: 1.6vh;
+    height: 1.6vh;
 }
 
 /*footer div a img {
@@ -119,7 +119,7 @@ button{
 }
 
 .icon-twitter{
-    height: 1.35vh;
+    height: 1.34vh;
     width: 1.35vh;
 }
 /* .socials a{
@@ -175,8 +175,9 @@ button{
     left: 50%;
     transform: translate(-50%);
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 0.8vh;
     white-space: nowrap;
+    margin-top: 2vh;
 }
 
 .attribution a{
