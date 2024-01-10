@@ -183,3 +183,12 @@ button{
 .attribution a{
     color: rgb(211, 163, 247);
 }
+
+@media (min-width: 1440px) {
+
+    body{
+        background-image: url(../images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
