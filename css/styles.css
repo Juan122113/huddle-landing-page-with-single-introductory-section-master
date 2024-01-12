@@ -196,16 +196,24 @@ button{
     header{
         height: auto;
         width: 100%;
-        padding: 1.1vh 9.7vw;
+        padding: 6vh 5vw;
         margin: 0 auto;
-        /* flex-grow: 0.5; */
+        /* flex-grow: 1000px; */
         display: flex;
         flex-direction: column;
+        background-image: none;
     }
 
     .Huddle-logo{
-        height: 5.5vh;
+        height: 6vh;
         width: 35vw;
-        place-self: center end;
+        position: relative;
+        right: 20%;
+    }
+
+    .mockups{
+        width: 55vw;
+        height: 75vh;
+        padding-top: 9vh;
     }
 }
