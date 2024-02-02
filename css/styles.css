@@ -49,6 +49,7 @@ section{
     /* position: relative; */
     display: flex;
     flex-direction: column;
+    
 }
 
 h1{
@@ -87,6 +88,7 @@ button{
     left: 50%;
     transform: translate(-50%);
     box-shadow: 1px 6px 1vh 0.0vh hsla(259, 40%, 25%, 0.603);
+    flex-shrink: 0;
 }
 
 .socials{
@@ -94,7 +96,7 @@ button{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 14vw;
+    margin-top: 16vw;
 }
 
 .socials .facebook,
