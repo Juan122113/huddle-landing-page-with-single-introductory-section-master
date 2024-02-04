@@ -70,7 +70,7 @@ h1{
     font-size: 4.4vw;
     /* font-weight: 400; */
     opacity: 0.9;
-    line-height: 6.1vw;
+    line-height: 6.3vw;
     padding-bottom: 3vh;
 }
 
@@ -96,7 +96,7 @@ button{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 16vw;
+    margin-top: 15.5vw;
 }
 
 .socials .facebook,
