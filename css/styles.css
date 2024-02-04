@@ -233,15 +233,12 @@ button{
     section{
         width: 50vw;
         height: 100%;
-        padding: 30vh 20vw 20vh 1vw;
-        /* flex-grow: 0.2; */
-        /* position: relative; */
+        padding: 25vh 5vw 20vh 1vw;
     }
 
     h1{
         text-align: left;
-        font-family: 'Poppins', sans-serif;
-        font-size: 2vw;
+        font-size: 2.8vw;
         font-weight: 600;
         padding-bottom: 26px;
         line-height: 4.4vh;
@@ -267,7 +264,7 @@ button{
         font-weight: 400;
         position: relative;
         /* top: 21%; */
-        left: 50%;
+        left: 20%;
         transform: translate(-50%);
         box-shadow: 1px 6px 1vh 0.0vh hsla(259, 40%, 25%, 0.603);
     }
