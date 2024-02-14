@@ -17,17 +17,19 @@ body{
     /* display: flex; */
     /* flex-direction: column; */
     background-color: hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
 }
 
 header{
-    height: 46.7vh;
+    height: auto;
     width: 100%;
     padding: 1.1vh 9.7vw;
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    /* flex-grow: 0.5; */
+    flex-grow: 0.06;
 }
 
 .Huddle-logo{
@@ -48,7 +50,7 @@ header{
 
 section{
     width: 100%;
-    height: 25vh;
+    height: 2vh;
     padding: 3vh 10.4vw 140px 10.4vw;
     /* flex-grow: 0.2; */
     /* position: relative; */
@@ -109,7 +111,7 @@ button{
 .socials .twitter,
 .socials .instagram {
     align-items: center;
-    border: 1.5px solid white;
+    border: 0.09vh solid white;
     border-radius: 50%;
     display: flex;
     height: 3.5vh;
