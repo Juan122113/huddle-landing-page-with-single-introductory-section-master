@@ -212,7 +212,7 @@ button{
         background-image: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
         /* background-size: cover; */
-        display: flex;
+        flex-direction: row;
     }
 
     header{
@@ -227,8 +227,10 @@ button{
     }
 
     .Huddle-logo{
-        height: 6.5vh;
-        width: 35vw;
+        width: 25vw;
+        max-width: 100%;
+        height: auto;
+        padding-top: 2.9vh;
         position: relative;
         right: 20%;
     }
