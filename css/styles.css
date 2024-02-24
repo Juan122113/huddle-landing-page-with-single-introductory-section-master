@@ -103,9 +103,9 @@ button{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 16vw;
+    margin-top: 14vw;
     position: relative;
-    left: 20vw;
+    left: 11vh;
 }
 
 .socials .facebook,
@@ -196,7 +196,7 @@ button{
 .attribution{
     color: white;
     position: relative;
-    right: 50%;
+    right: 38vw;
     top: 100%;
     /*left: 50%;
     transform: translate(-50%); */
