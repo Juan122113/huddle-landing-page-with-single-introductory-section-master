@@ -52,6 +52,7 @@ section{
     height: 2vh;
     padding: 3vh 10.4vw 140px 10.4vw;
     /* flex-grow: 0.2; */
+    flex-shrink: 0.1;
     /* position: relative; */
     display: flex;
     flex-direction: column;
@@ -103,7 +104,7 @@ button{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 14vw;
+    margin-top: 18.5vw;
     position: relative;
     left: 11vh;
 }
@@ -196,14 +197,14 @@ button{
 .attribution{
     color: white;
     position: relative;
-    right: 38vw;
-    top: 25vh;
+    right: 50%;
+    top: 100%;
     /*left: 50%;
     transform: translate(-50%); */
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8vh;
     white-space: nowrap;
-    margin-top: 1vh;
+    margin-top: 5vh;
     align-self: center;
 }
 
