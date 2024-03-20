@@ -116,11 +116,11 @@ button{
     border: 0.09vh solid white;
     border-radius: 50%;
     display: flex;
-    height: 50px;
-    width: 50px;
+    height: 3vh;
+    width: 3vh;
     max-width: 100%;
     justify-content: center;
-    /* esácio entre círculos */
+    /* espacio entre círculos */
     margin-left: 0.7vh;
     margin-right: 0.7vh;
     /* espacio entre el círculo y el ícono */
@@ -293,4 +293,10 @@ button{
         bottom: 5vh;
     }
     
+    .socials .facebook,
+    .socials .twitter,
+    .socials .instagram {
+        height: 5vh;
+        width: 5vh;
+    }
 }
