@@ -222,8 +222,6 @@ button{
     }
 
     header{
-        height: auto;
-        width: 100%;
         padding: 6vh 1vw 6vh 5vw;
         margin: 0 auto;
         /* flex-grow: 1vw; */
@@ -298,5 +296,10 @@ button{
     .socials .instagram {
         height: 5vh;
         width: 5vh;
+    }
+
+    .attribution{
+        top: 65%;
+        font-size: 1.2vh;
     }
 }
