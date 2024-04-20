@@ -240,7 +240,6 @@ button{
 
     section{
         width: 50vw;
-        height: 100%;
         padding: 29.5vh 12vw 20vh 0.5vw;
     }
 
@@ -253,20 +252,17 @@ button{
 
      .section-p{
         text-align: left;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.28vw;
-        line-height: 3vh;
-        padding-bottom: 3vh;
+        font-size: 1.31vw;
+        line-height: 3.6vh;
+        padding-bottom: 3.3vh;
     }
 
     button{
-        width: 15vw;
-        height: 7vh;
-        font-size: 2.5vh;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
+        width: 14vw;
+        height: 7.3vh;
+        font-size: 2.3vh;
         position: relative;
-        left: 18%;
+        left: 20%;
         transform: translate(-50%);
         box-shadow: 1px 6px 1vh 0.0vh hsla(259, 40%, 25%, 0.603);
     }
