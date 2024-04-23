@@ -254,26 +254,20 @@ button{
         text-align: left;
         font-size: 1.31vw;
         line-height: 3.6vh;
-        padding-bottom: 3.3vh;
+        padding-bottom: 2.7vh;
     }
 
     button{
         width: 14vw;
         height: 7.3vh;
         font-size: 2.3vh;
-        position: relative;
         left: 20%;
-        transform: translate(-50%);
-        box-shadow: 1px 6px 1vh 0.0vh hsla(259, 40%, 25%, 0.603);
     }
 
     .socials{
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin-top: 14.5vw;
+        margin-top: 14.6vw;
         position: relative;
-        left: 31vh;
+        left: 42vh;
         bottom: 5vh;
     }
     
@@ -282,6 +276,21 @@ button{
     .socials .instagram {
         height: 5vh;
         width: 5vh;
+    }
+
+    .icon-instagram{
+        width: 2.3vh;
+        height: 2.3vh;
+    }
+    
+    .icon-facebook{
+        height: 4vh;
+        width: 1vh;
+    }
+    
+    .icon-twitter{
+        height: 1.34vh;
+        width: 1.35vh;
     }
 
     .attribution{
