@@ -7,6 +7,7 @@
 html{
     height: 100vh;
     min-height: 100vh;
+    width: 100vw;
 }
 
 body{
@@ -21,14 +22,14 @@ body{
 }
 
 header{
-    height: auto;
+    height: 45%;
     width: 100%;
     padding: 1.1vh 9.7vw;
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    flex-grow: 0.37;
+    /* flex-grow: 0.37; */
 }
 
 .Huddle-logo{
@@ -49,14 +50,17 @@ header{
 
 section{
     width: 100%;
+    height: 55%;
     /* height: 100%; *//* <-- esto causó que hubiera espacio vacío debajo de la página */
-    padding: 3vh 10.4vw 1px 10.4vw;
+    padding: 3vh 10.4vw 0px 10.4vw;
     /* flex-grow: 0.2; */
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    /* overflow: hidden; */
+    /* justify-content: center; */
+    /* position: relative; */
 }
 
 h1{
@@ -100,13 +104,19 @@ button{
 }
 
 .socials{
+    /* width: auto; */
+    /* height: 20vh;
+    width: 10vw; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-top: 14.5vw;
-    position: relative;
-    left: 11vh;
+    margin: 0 auto;
+    padding-top: 8vh;
+    /* margin-top: 0vw; */
+    /* margin-left: 23vh; */
+    /* position: relative; */
+    /* top: 10vh; */
+    /* left: 11vh; */
 }
 
 .socials .facebook,
@@ -118,7 +128,7 @@ button{
     display: flex;
     height: 3vh;
     width: 3vh;
-    max-width: 100%;
+    /* max-width: 100%; */
     justify-content: center;
     /* espacio entre círculos */
     margin-left: 0.7vh;
@@ -196,16 +206,19 @@ button{
 
 .attribution{
     color: white;
-    position: relative;
-    right: 50%;
-    top: 100%;
+    /* position: relative; */
+    /* right: 150%; */
+    /* top: 15%; */
     /*left: 50%;
     transform: translate(-50%); */
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8vh;
     white-space: nowrap;
-    margin-top: 5vh;
-    align-self: center;
+    /* margin-top: 21vh;
+    margin-right: 75vw; */
+    /* margin-left: 0.5vw; */
+    /* align-self: center; */
 }
 
 .attribution a{
