@@ -217,6 +217,7 @@ button{
     body{
         background-image: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
+        background-size: contain;
         flex-direction: row;
     }
 
