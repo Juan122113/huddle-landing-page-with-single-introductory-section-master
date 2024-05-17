@@ -58,7 +58,7 @@ section{
     /* height: 55%; */
     /* height: 100%; *//* <-- esto causó que hubiera espacio vacío debajo de la página */
     padding: 2.5vh 10.4vw 0px 10.4vw;
-    flex-grow: 0.2;
+    /* flex-grow: 0.2; */
     /* flex-shrink: 0; */
     /* position: relative; */
     display: flex;
