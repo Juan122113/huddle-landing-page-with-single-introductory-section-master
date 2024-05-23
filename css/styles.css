@@ -30,6 +30,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    position: relative;
     /* flex-grow: 0.1; */
     /* flex-shrink: 0.5; */
 }
@@ -44,13 +45,16 @@ header{
 }
 
 .mockups{
+    /* width: 85vw; */
     width: auto;
     /* height: 31.9vh; */
-    padding-top: 7.5vh;
+    padding-top: 0vh;
     max-width: 100%;
     height: auto;
     max-height: 100%;
     display: block;
+    position: absolute;
+    bottom: 0;
 }
 
 section{
