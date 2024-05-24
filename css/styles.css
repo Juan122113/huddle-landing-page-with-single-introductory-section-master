@@ -30,6 +30,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; Alinea horizontalmente al centro */
+    justify-content: flex-start; /* Alinea los elementos verticalmente */
     position: relative;
     /* flex-grow: 0.1; */
     /* flex-shrink: 0.5; */
@@ -41,20 +45,19 @@ header{
     max-width: 100%;
     height: auto;
     /* max-height: 100%; */
-    padding-top: 2.4vh;
+    padding-top: 3vh;
 }
 
 .mockups{
-    /* width: 85vw; */
-    width: auto;
-    /* height: 31.9vh; */
-    padding-top: 0vh;
+    width: 120vw;
+    /* width: auto; */
     max-width: 100%;
     height: auto;
-    max-height: 100%;
+    /* height: auto; */
+    max-height: 60%;
+    /* padding-top: 0vh; */
+    margin-top: 7.5vh;
     display: block;
-    position: absolute;
-    bottom: 0;
 }
 
 section{
