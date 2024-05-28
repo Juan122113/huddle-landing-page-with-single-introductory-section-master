@@ -23,13 +23,16 @@ body{
 }
 
 header{
-    height: 46.5vh;
+    /* height: 46.5vh; */
+    /* min-height: 100vh; */
+    min-height: 46.5vh;
     width: 100%;
     padding: 1.1vh 9.7vw;
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    /* overflow: hidden; */
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; Alinea horizontalmente al centro */
@@ -49,20 +52,21 @@ header{
 }
 
 .mockups{
-    width: 120vw;
+    width: 100%;
+    /* width: 120vw; */
     /* width: auto; */
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
-    /* height: auto; */
-    max-height: 60%;
-    /* padding-top: 0vh; */
+    /* max-height: 60%; */
+    /* padding-top: 7.5vh; */
+    /* margin-top: 0 auto; */
     margin-top: 7.5vh;
     display: block;
 }
 
 section{
     width: 100%;
-    /* height: 55%; */
+    /* height: 53.5vh; */
     /* height: 100%; *//* <-- esto causó que hubiera espacio vacío debajo de la página */
     padding: 2.5vh 10.4vw 0px 10.4vw;
     /* flex-grow: 0.2; */
@@ -101,11 +105,11 @@ button{
     border-radius: 50px;
     width: 54vw;
     height: 5vh;
-    font-size: 1.5vh;
+    
+    /* font-size: 1.5vh; */
     background-color: white;
-    color: hsl(257, 40%, 49%);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    
+   
     position: relative;
     /* top: 21%; */
     left: 50%;
@@ -113,6 +117,14 @@ button{
     box-shadow: 1px 6px 1vh 0.0vh hsla(259, 40%, 25%, 0.603);
     /* flex-shrink: 0; */
     border-style: none;
+}
+
+.button_link{
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.25vw;
 }
 
 .socials{
