@@ -105,11 +105,8 @@ button{
     border-radius: 50px;
     width: 54vw;
     height: 5vh;
-    
     /* font-size: 1.5vh; */
     background-color: white;
-    
-   
     position: relative;
     /* top: 21%; */
     left: 50%;
@@ -253,18 +250,20 @@ button{
 @media (min-width: 1440px) {
 
     body{
+        max-height: 100vh;
         background-image: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
         background-size: contain;
+        /* display: inline; */
         flex-direction: row;
     }
 
     header{
         padding: 6vh 1vw 6vh 5vw;
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
         background-image: none;
-        flex-shrink: 0.8;
+        /* flex-shrink: 0.8; */
     }
 
     .Huddle-logo{
@@ -274,40 +273,45 @@ button{
 
     .mockups{
         width: 49.5vw;
-        padding-top: 10.8vh;
+        padding-top: 3.5vh;
     }
 
     section{
-        width: 50vw;
-        padding: 29.5vh 12vw 20vh 0.5vw;
+        /* width: 50vw; */
+        padding: 29.8vh 6vw 20vh 3vw;
+        min-height: 100vh;
     }
 
     h1{
         text-align: left;
         font-size: 2.9vw;
-        padding-bottom: 2.5vh;
-        line-height: 7.5vh;
+        padding-bottom: 2.3vh;
+        line-height: 7.4vh;
      }
 
      .section-p{
         text-align: left;
-        font-size: 1.31vw;
+        font-size: 1.305vw;
         line-height: 3.6vh;
         padding-bottom: 2.7vh;
     }
 
     button{
-        width: 14vw;
-        height: 7.3vh;
-        font-size: 2.3vh;
+        width: 15vw;
+        height: 57.3vh;
         left: 20%;
     }
 
+    .button_link{
+        font-size: 2.3vh;
+    }
+
     .socials{
-        margin-top: 14.6vw;
+        max-height: 1vh;
+        /* margin-top: 11vw; */
         position: relative;
-        left: 42vh;
-        bottom: 5vh;
+        left: 23vh;
+        /* bottom: -15vh; */
     }
     
     .socials .facebook,
@@ -333,7 +337,8 @@ button{
     }
 
     .attribution{
-        top: 55%;
+        top: 0%;
         font-size: 1.2vh;
+        padding-top: 3vh;
     }
 }
