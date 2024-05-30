@@ -7,6 +7,7 @@
 
 html{
     height: 100%;
+    max-height: 1000px;
     /* min-height: 100vh; */
     /* width: 100vw; */
 }
@@ -15,17 +16,20 @@ body{
     max-width: 100%;
     /* height: 100vh; */
     min-height: 100vh;
+    /* max-height: 1000px; */
     margin: 0 auto;
     /* max-height: 100vh; */
     background-color: hsl(257, 40%, 49%);
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 header{
     /* height: 46.5vh; */
     /* min-height: 100vh; */
     min-height: 46.5vh;
+    max-height: 1000px;
     width: 100%;
     padding: 1.1vh 9.7vw;
     background-image: url(../images/bg-mobile.svg);
@@ -66,6 +70,7 @@ header{
 
 section{
     width: 100%;
+    max-height: 1000px;
     /* height: 53.5vh; */
     /* height: 100%; *//* <-- esto causó que hubiera espacio vacío debajo de la página */
     padding: 2.5vh 10.4vw 0px 10.4vw;
@@ -252,7 +257,7 @@ button{
     body{
         max-height: 100vh;
         background-image: url(../images/bg-desktop.svg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-size: contain;
         /* display: inline; */
         flex-direction: row;
@@ -272,14 +277,16 @@ button{
     }
 
     .mockups{
+        max-height: 70vh;
         width: 49.5vw;
-        padding-top: 3.5vh;
+        padding-top: 3.1vh;
     }
 
     section{
         /* width: 50vw; */
         padding: 29.8vh 6vw 20vh 3vw;
         min-height: 100vh;
+        /* max-height: 100vh; */
     }
 
     h1{
@@ -298,7 +305,7 @@ button{
 
     button{
         width: 15vw;
-        height: 57.3vh;
+        height: 7.2vh;
         left: 20%;
     }
 
@@ -311,6 +318,7 @@ button{
         /* margin-top: 11vw; */
         position: relative;
         left: 23vh;
+        top: 18vh;
         /* bottom: -15vh; */
     }
     
@@ -337,8 +345,13 @@ button{
     }
 
     .attribution{
-        top: 0%;
+        /* top: 0%; */
         font-size: 1.2vh;
         padding-top: 3vh;
+        position: relative;
+        top: 40%;
+        left: 30%;
+        /* align-self: center; */
+        /* place-self: end center; */
     }
 }
