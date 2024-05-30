@@ -151,8 +151,12 @@ button{
     body{
         max-height: 100vh;
         background-image: url(../images/bg-desktop.svg);
+        background-position: left;
         background-repeat: no-repeat;
-        background-size: contain 100%;
+         /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+        background-attachment: fixed;
+        /* This is what makes the background image rescale based on the container’s size */
+        background-size: contain;
         flex-direction: row;
     }
 
@@ -179,8 +183,8 @@ button{
 
     h1{
         text-align: left;
-        font-size: 2.9vw;
-        padding-bottom: 2.3vh;
+        font-size: 2.8vw;
+        padding-bottom: 2.2vh;
         line-height: 7.4vh;
      }
 
@@ -214,6 +218,9 @@ button{
         height: 5vh;
         width: 5vh;
         border: 0.06vw solid white;
+        /* espacio entre círculos */
+        margin-left: 0.9vh;
+        margin-right: 0.9vh;
     }
 
     .icon-instagram{
