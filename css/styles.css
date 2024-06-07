@@ -82,10 +82,6 @@ button{
     transform: translate(-50%);
     box-shadow: 1px 6px 1vh 0.0vh hsla(259, 40%, 25%, 0.603);
     border-style: none;
-}
-
-.button_link{
-    text-decoration: none;
     color: hsl(257, 40%, 49%);
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -173,7 +169,7 @@ button{
     }
 
     section{
-        padding: 29.8vh 9vw 20vh 3vw;
+        padding: 29.8vh 8vw 20vh 3vw;
         min-height: 100vh;
     }
 
@@ -195,9 +191,6 @@ button{
         width: 12.5vw;
         height: 7.3vh;
         left: 19.5%;
-    }
-
-    .button_link{
         font-size: 2.3vh;
     }
 
