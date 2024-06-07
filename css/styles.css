@@ -144,7 +144,7 @@ button{
 @media (min-width: 1440px) {
 
     body{
-        max-height: 100vh;
+        /* max-height: 100vh; */
         background-image: url(../images/bg-desktop.svg);
         background-position: left;
         background-repeat: no-repeat;
@@ -182,22 +182,22 @@ button{
 
      .section-p{
         text-align: left;
-        font-size: 1.15vw;
+        font-size: 1.2vw;
         line-height: 3.6vh;
         padding-bottom: 2.7vh;
     }
 
     button{
-        width: 12.5vw;
-        height: 7.3vh;
-        left: 19.5%;
+        width: 13vw;
+        height: 7.2vh;
+        left: 20%;
         font-size: 2.3vh;
     }
 
     .socials{
         max-height: 1vh;
         position: relative;
-        left: 23vh;
+        left: 24vh;
         top: 17.5vh;
     }
     
