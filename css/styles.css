@@ -18,7 +18,7 @@ body{
     flex-wrap: nowrap;
 }
 
-header{
+.header{
     min-height: 46.5vh;
     max-height: 1000px;
     width: 100%;
@@ -152,7 +152,7 @@ button{
         flex-direction: row;
     }
 
-    header{
+    .header{
         padding: 6vh 1vw 6vh 5vw;
         background-image: none;
     }
