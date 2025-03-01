@@ -88,6 +88,12 @@ button{
     font-size: 3.25vw;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
 .socials{
     display: flex;
     flex-direction: row;
@@ -113,12 +119,21 @@ button{
     padding: 1.6vh;
 }
 
+.socials .facebook:hover,
+.socials .twitter:hover,
+.socials .instagram:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    border: 0.09vh solid hsl(300, 69%, 71%);
+}
+
 .icon-instagram{
     width: 3.2vw;
     height: 3.2vw;
 }
 
 .icon-facebook{
+    color: white;
     height: 3.5vw;
     width: 5vw;
 }
@@ -127,6 +142,19 @@ button{
     height: 2.8vw;
     width: 2.8vw;
 }
+
+.icon-instagram:hover,
+.icon-facebook:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+/* .icon-facebook:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+.icon-facebook:hover {
+    fill: hsl(300, 69%, 71%);
+} */
 
 .attribution{
     color: white;
