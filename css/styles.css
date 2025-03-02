@@ -117,11 +117,12 @@ button:hover {
     margin-right: 1.2vw;
     /* espacio entre el círculo y el ícono */
     padding: 1.6vh;
+    color: white;
 }
 
-.socials .facebook:hover,
-.socials .twitter:hover,
-.socials .instagram:hover {
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
     color: hsl(300, 69%, 71%);
     cursor: pointer;
     border: 0.09vh solid hsl(300, 69%, 71%);
@@ -133,7 +134,7 @@ button:hover {
 }
 
 .icon-facebook{
-    color: white;
+    /* color: white; */
     height: 3.5vw;
     width: 5vw;
 }
@@ -143,10 +144,10 @@ button:hover {
     width: 2.8vw;
 }
 
-.icon-instagram:hover,
+/* .icon-instagram:hover,
 .icon-facebook:hover {
     color: hsl(300, 69%, 71%);
-}
+} */
 
 /* .icon-facebook:hover {
     color: hsl(300, 69%, 71%);
