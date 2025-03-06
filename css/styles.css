@@ -32,7 +32,6 @@ body{
 .Huddle-logo{
     width: 33.5vw;
     max-width: 100%;
-    /* height: auto; */
     padding-top: 3vh;
 }
 
@@ -116,7 +115,7 @@ button:hover {
     margin-left: 1.2vw;
     margin-right: 1.2vw;
     /* espacio entre el círculo y el ícono */
-    padding: 1.6vh;
+    padding: 0.6rem;
     color: white;
 }
 
@@ -134,7 +133,6 @@ button:hover {
 }
 
 .icon-facebook{
-    /* color: white; */
     height: 3.5vw;
     width: 5vw;
 }
@@ -143,19 +141,6 @@ button:hover {
     height: 2.8vw;
     width: 2.8vw;
 }
-
-/* .icon-instagram:hover,
-.icon-facebook:hover {
-    color: hsl(300, 69%, 71%);
-} */
-
-/* .icon-facebook:hover {
-    color: hsl(300, 69%, 71%);
-}
-
-.icon-facebook:hover {
-    fill: hsl(300, 69%, 71%);
-} */
 
 .attribution{
     color: white;
@@ -173,7 +158,6 @@ button:hover {
 @media (min-width: 1440px) {
 
     body{
-        /* max-height: 100vh; */
         background-image: url(../images/bg-desktop.svg);
         background-position: left;
         background-repeat: no-repeat;
