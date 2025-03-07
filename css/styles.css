@@ -128,8 +128,8 @@ button:hover {
 }
 
 .icon-instagram{
-    width: 3.2vw;
-    height: 3.2vw;
+    width: 1.5rem;
+    height: 2.2rem;
 }
 
 .icon-facebook{
@@ -239,8 +239,8 @@ button:hover {
     }
     
     .icon-facebook{
-        height: 4vh;
-        width: 1.3vh;
+        height: 3rem;
+        width: 1.3rem;
     }
     
     .icon-twitter{
@@ -255,4 +255,14 @@ button:hover {
         top: 40%;
         left: 30%;
     }
+}
+
+@media (max-width: 240px) {
+    .socials .facebook,
+.socials .twitter,
+.socials .instagram {
+    /* espacio entre el círculo y el ícono */
+    padding: 0.1rem;
+    color: white;
+}
 }
