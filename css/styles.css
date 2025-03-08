@@ -6,6 +6,7 @@
 
 html{
     height: 100%;
+    /* min-height: 100%; */
 }
 
 body{
@@ -239,7 +240,7 @@ button:hover {
     }
     
     .icon-facebook{
-        height: 3rem;
+        height: 1rem;
         width: 1.3rem;
     }
     
@@ -259,10 +260,15 @@ button:hover {
 
 @media (max-width: 240px) {
     .socials .facebook,
-.socials .twitter,
-.socials .instagram {
+    .socials .twitter,
+    .socials .instagram {
     /* espacio entre el círculo y el ícono */
     padding: 0.1rem;
     color: white;
-}
+    }
+
+    .icon-instagram{
+        width: 1.2rem;
+        height: 0.5rem;
+    }
 }
