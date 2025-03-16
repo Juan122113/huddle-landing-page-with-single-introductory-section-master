@@ -160,7 +160,7 @@ button:hover {
     color: rgb(211, 163, 247);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 801px) {
 
     body{
         background-image: url(../images/bg-desktop.svg);
