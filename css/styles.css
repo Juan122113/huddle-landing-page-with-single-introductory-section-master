@@ -7,7 +7,7 @@
 html{
     /* height: 100%; */
     /* min-height: 100%; */
-    min-height: 100%;
+    /* min-height: 100%; */
     height: 100%;
 
 }
@@ -19,7 +19,8 @@ body{
     background-color: hsl(257, 40%, 49%);
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    position: relative;
+    /* flex-wrap: nowrap; */
     /* min-height: 100vh; */
 }
 
@@ -165,9 +166,11 @@ button:hover {
     body{
         background-image: url(../images/bg-desktop.svg);
         background-position: left;
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-size: contain;
+        /* background-size: cover; */
         flex-direction: row;
+        /* display: inline; */
     }
 
     .header{
@@ -187,7 +190,7 @@ button:hover {
     }
 
     section{
-        padding: 29.8vh 8vw 20vh 3vw;
+        padding: 14.8rem 9rem 20rem 2rem;
         min-height: 100vh;
     }
 
@@ -213,10 +216,10 @@ button:hover {
     }
 
     .socials{
-        max-height: 1vh;
+        max-height: 1rem;
         position: relative;
-        left: 24vh;
-        top: 17.5vh;
+        left: 12rem;
+        top: 8.5rem;
     }
     
     .socials .facebook,
