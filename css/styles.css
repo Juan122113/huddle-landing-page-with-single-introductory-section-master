@@ -150,7 +150,7 @@ button:hover {
 
 .attribution{
     color: white;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-family: 'Open Sans', sans-serif;
     font-size: 2vw;
     white-space: nowrap;
